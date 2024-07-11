@@ -1,4 +1,3 @@
 # Django-Projects
 
-
-# Deep Learning about Django Concept
+Deep Learning about Django Concept
