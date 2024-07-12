@@ -50,6 +50,7 @@
                 <h5 class="card-title"><small>Category: {{photo.category.name}}</small></h5>
                 <p class="card-text">{{photo.description}}</p>
                 <a href="{% url 'photo' photo.id %}" class="btn btn-dark btn-block btn-sm md-1">View</a>
+                <a href="{% url 'gallery' %}?deleted={{photo.id}}" class="btn btn-danger btn-block btn-sm md-1">Delete</a>
               </div>
             </div>
           </div>
